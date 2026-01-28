@@ -453,7 +453,7 @@
     opacity: .75;
     padding: 8px 16px;
     font-weight: 500;
-    transition: opacity .2s ease-in-out;
+    transition: opacity .1s ease-in-out;
   }
 
   button:hover {
@@ -636,10 +636,6 @@
 
   .w-0 {
     width: calc(var(--spacing) * 0);
-  }
-
-  .w-50 {
-    width: calc(var(--spacing) * 50);
   }
 
   .w-64 {
