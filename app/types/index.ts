@@ -28,8 +28,3 @@ export type CompletedCourse = {
   grade: string;
   credits: number;
 };
-
-export type BreadCrumbsProps = {
-  courseId: string;
-  CourseName?: string;
-};

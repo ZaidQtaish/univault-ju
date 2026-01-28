@@ -7,7 +7,7 @@ export default async function CoursePageLayout({ params, children }: { params: P
 
     return (
         <div className="p-8">
-            <BreadCrumbs courseId={courseId} CourseName={course?.name} />
+            <BreadCrumbs CourseName={course?.name} />
             <h1 className="text-3xl font-bold mb-4">{course?.name}</h1>
             <p className="text-lg text-muted-foreground">{course?.description}</p>
             {children}

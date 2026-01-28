@@ -11,7 +11,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 "use client";
 ;
 ;
-function BreadCrumbs({ courseId, CourseName }) {
+function BreadCrumbs({ CourseName }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
         className: "flex items-center gap-2 text-sm text-gray-500 mb-4",
         children: [
@@ -21,14 +21,14 @@ function BreadCrumbs({ courseId, CourseName }) {
                 children: "Courses"
             }, void 0, false, {
                 fileName: "[project]/app/components/BreadCrumbs.tsx",
-                lineNumber: 8,
+                lineNumber: 7,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {
                 className: "fa-solid fa-chevron-right text-[10px] text-gray-500"
             }, void 0, false, {
                 fileName: "[project]/app/components/BreadCrumbs.tsx",
-                lineNumber: 12,
+                lineNumber: 11,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -36,13 +36,13 @@ function BreadCrumbs({ courseId, CourseName }) {
                 children: CourseName ? CourseName : `Course ${courseId}`
             }, void 0, false, {
                 fileName: "[project]/app/components/BreadCrumbs.tsx",
-                lineNumber: 15,
+                lineNumber: 14,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/components/BreadCrumbs.tsx",
-        lineNumber: 7,
+        lineNumber: 6,
         columnNumber: 1
     }, this);
 }

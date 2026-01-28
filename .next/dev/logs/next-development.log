@@ -1,345 +1,112 @@
-[00:00:01.990] Server  LOG     ✓ Ready in 1473ms
-[00:00:07.238] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:07.348] Browser WARN    Image with src "http://localhost:3000/UJ.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:01:19.596] Server  LOG     ✓ Compiled in 1ms
-[00:01:20.151] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:22.230] Browser WARN    Image with src "http://localhost:3000/UJ.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:55.384] Server  LOG     ✓ Compiled in 18ms
-[00:06:09.720] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:06:09.845] Browser WARN    Image with src "http://localhost:3000/UJ.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:17:13.628] Browser ERROR   ./app/courses/course/[courseId]/page.tsx:7:13
-Parsing ecmascript source code failed
-   5 |         <div className="p-8">
-   6 |             <
->  7 |             <h1 className="text-3xl font-bold mb-4">Course ID: {courseId}</h1>
-     |             ^
-   8 |             <p className="text-lg text-muted-foreground">
-   9 |                 This is the page for course with ID: {courseId}. More details and resources will be added here.
-  10 |             </p>
-
-Expression expected
-[00:17:21.892] Server  LOG     ✓ Compiled in 86ms
-[00:17:21.994] Browser ERROR   ./app/courses/course/[courseId]/page.tsx:7:13
-Parsing ecmascript source code failed
-   5 |         <div className="p-8">
-   6 |             <
->  7 |             <h1 className="text-3xl font-bold mb-4">Course ID: {courseId}</h1>
-     |             ^
-   8 |             <p className="text-lg text-muted-foreground">
-   9 |                 This is the page for course with ID: {courseId}. More details and resources will be added here.
-  10 |             </p>
-
-Expression expected
-[00:17:23.722] Browser ERROR   ./app/courses/course/[courseId]/page.tsx:7:13
-Parsing ecmascript source code failed
-   5 |         <div className="p-8">
-   6 |             <
->  7 |             <h1 className="text-3xl font-bold mb-4">Course ID: {courseId}</h1>
-     |             ^
-   8 |             <p className="text-lg text-muted-foreground">
-   9 |                 This is the page for course with ID: {courseId}. More details and resources will be added here.
-  10 |             </p>
-
-Expression expected
-[00:17:26.058] Browser ERROR   ./app/courses/course/[courseId]/page.tsx:7:13
-Parsing ecmascript source code failed
-   5 |         <div className="p-8">
-   6 |             <
->  7 |             <h1 className="text-3xl font-bold mb-4">Course ID: {courseId}</h1>
-     |             ^
-   8 |             <p className="text-lg text-muted-foreground">
-   9 |                 This is the page for course with ID: {courseId}. More details and resources will be added here.
-  10 |             </p>
-
-Expression expected
-[00:17:36.630] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
-[00:17:36.736] Browser ERROR   {"environmentName":"Server","name":"Error"}
-[00:20:18.766] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
-[00:20:19.354] Browser ERROR   {"environmentName":"Server","name":"Error"}
-[00:21:20.712] Server  LOG     ✓ Compiled in 120ms
-[00:21:21.151] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
-[00:21:21.254] Browser ERROR   {"environmentName":"Server","name":"Error"}
-[00:22:49.625] Browser ERROR   ./lib/majors.ts:39:6
-Parsing ecmascript source code failed
-  37 |             }
-  38 |         }
-> 39 |     }
-     |      ^
-
-Expected '}', got '<eof>'
-
-Import trace:
-  Server Component:
-    ./lib/majors.ts
-    ./app/courses/page.tsx
-[00:22:59.006] Server  LOG     ✓ Compiled in 19ms
-[00:22:59.133] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
-[00:22:59.240] Browser ERROR   {"environmentName":"Server","name":"Error"}
-[00:23:08.566] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
-[00:23:08.906] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:23:09.024] Browser ERROR   {"environmentName":"Server","name":"Error"}
-[00:23:09.024] Browser WARN    Image with src "http://localhost:3000/UJ.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:23:18.136] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:23:18.247] Browser WARN    Image with src "http://localhost:3000/UJ.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:25:09.387] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
-[00:25:09.496] Browser ERROR   {"environmentName":"Server","name":"Error"}
-[00:25:19.735] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
-[00:25:19.839] Browser ERROR   {"environmentName":"Server","name":"Error"}
-[00:25:24.910] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:25:25.034] Browser WARN    Image with src "http://localhost:3000/UJ.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:25:47.837] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
-[00:25:47.940] Browser ERROR   {"environmentName":"Server","name":"Error"}
-[00:26:10.141] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
-[00:26:10.244] Browser ERROR   {"environmentName":"Server","name":"Error"}
-[00:28:00.655] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:28:01.612] Browser WARN    Image with src "http://localhost:3000/UJ.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:28:56.100] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:28:56.226] Browser WARN    Image with src "http://localhost:3000/UJ.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:28:56.874] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:28:56.987] Browser WARN    Image with src "http://localhost:3000/UJ.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:28:58.453] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:28:58.574] Browser WARN    Image with src "http://localhost:3000/UJ.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:31:15.824] Server  LOG     ✓ Compiled in 102ms
-[00:31:15.925] Browser ERROR   ./app/courses/course/[courseId]/page.tsx:7:1
-Parsing ecmascript source code failed
-  5 |         </div>
-  6 |     );
-> 7 | }
-    | ^
-
-Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
-[00:31:32.756] Server  WARN    Route / is rendering with server caches disabled. For this navigation, Component Metadata in React DevTools will not accurately reflect what is statically prerenderable and runtime prefetchable. See more info here: https://nextjs.org/docs/messages/cache-bypass-in-dev
-[00:31:34.598] Browser ERROR   ./app/courses/course/[courseId]/page.tsx:7:1
-Parsing ecmascript source code failed
-  5 |         </div>
-  6 |     );
-> 7 | }
-    | ^
-
-Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
-[00:31:34.598] Browser ERROR   ./app/courses/course/[courseId]/page.tsx:7:1
-Parsing ecmascript source code failed
-  5 |         </div>
-  6 |     );
-> 7 | }
-    | ^
-
-Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
-[00:31:34.598] Browser ERROR   ./app/courses/course/[courseId]/page.tsx:7:1
-Parsing ecmascript source code failed
-  5 |         </div>
-  6 |     );
-> 7 | }
-    | ^
-
-Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
-[00:31:34.598] Browser ERROR   ./app/courses/course/[courseId]/page.tsx:7:1
-Parsing ecmascript source code failed
-  5 |         </div>
-  6 |     );
-> 7 | }
-    | ^
-
-Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
-[00:31:35.686] Browser ERROR   ./app/courses/course/[courseId]/page.tsx:7:1
-Parsing ecmascript source code failed
-  5 |         </div>
-  6 |     );
-> 7 | }
-    | ^
-
-Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
-[00:31:35.686] Browser ERROR   ./app/courses/course/[courseId]/page.tsx:7:1
-Parsing ecmascript source code failed
-  5 |         </div>
-  6 |     );
-> 7 | }
-    | ^
-
-Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
-[00:31:35.686] Browser ERROR   uncaughtError: Error: ./app/courses/course/[courseId]/page.tsx:7:1
-Parsing ecmascript source code failed
-  5 |         </div>
-  6 |     );
-> 7 | }
-    | ^
-
-Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
-
-
-[00:33:57.490] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
-[00:33:58.196] Browser ERROR   {"environmentName":"Server","name":"Error"}
-[00:34:02.466] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
-[00:34:03.066] Browser ERROR   {"environmentName":"Server","name":"Error"}
-[00:35:03.506] Server  LOG     ✓ Compiled in 23ms
-[00:35:29.008] Server  LOG     ✓ Compiled in 83ms
-[00:35:40.545] Server  LOG     ✓ Compiled in 67ms
-[00:35:52.464] Server  LOG     ✓ Compiled in 63ms
-[00:35:56.278] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:35:56.401] Browser WARN    Image with src "http://localhost:3000/UJ.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:36:39.509] Server  LOG     ✓ Compiled in 62ms
-[00:36:41.538] Server  LOG     ✓ Compiled in 53ms
-[00:36:45.423] Server  LOG     ✓ Compiled in 59ms
-[00:37:25.322] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
-[00:37:25.429] Browser ERROR   {"environmentName":"Server","name":"Error"}
-[00:37:37.580] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
-[00:37:37.683] Browser ERROR   {"environmentName":"Server","name":"Error"}
-[00:37:53.045] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
-[00:37:53.156] Browser ERROR   {"environmentName":"Server","name":"Error"}
-[00:37:56.087] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
-[00:37:56.190] Browser ERROR   {"environmentName":"Server","name":"Error"}
-[00:38:00.771] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
-[00:38:00.874] Browser ERROR   {"environmentName":"Server","name":"Error"}
-[00:38:11.658] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
-[00:38:11.761] Browser ERROR   {"environmentName":"Server","name":"Error"}
-[00:38:14.765] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
-[00:38:14.870] Browser ERROR   {"environmentName":"Server","name":"Error"}
-[00:38:19.634] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
-[00:38:19.739] Browser ERROR   {"environmentName":"Server","name":"Error"}
-[00:38:22.722] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
-[00:38:23.081] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:38:23.214] Browser ERROR   {"environmentName":"Server","name":"Error"}
-[00:38:23.214] Browser WARN    Image with src "http://localhost:3000/UJ.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:38:26.814] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
-[00:38:26.918] Browser ERROR   {"environmentName":"Server","name":"Error"}
-[00:38:32.385] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
-[00:38:32.489] Browser ERROR   {"environmentName":"Server","name":"Error"}
-[00:38:36.450] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
-[00:38:36.553] Browser ERROR   {"environmentName":"Server","name":"Error"}
-[00:38:44.683] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
-[00:38:44.794] Browser ERROR   {"environmentName":"Server","name":"Error"}
-[00:38:52.537] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
-[00:38:52.639] Browser ERROR   {"environmentName":"Server","name":"Error"}
-[00:38:56.713] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
-[00:38:56.818] Browser ERROR   {"environmentName":"Server","name":"Error"}
-[00:39:14.326] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
-[00:39:14.430] Browser ERROR   {"environmentName":"Server","name":"Error"}
-[00:39:26.001] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
-[00:39:26.106] Browser ERROR   {"environmentName":"Server","name":"Error"}
-[00:39:36.112] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
-[00:39:36.215] Browser ERROR   {"environmentName":"Server","name":"Error"}
-[00:39:47.484] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
-[00:39:47.587] Browser ERROR   {"environmentName":"Server","name":"Error"}
-[00:39:52.718] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
-[00:39:52.820] Browser ERROR   {"environmentName":"Server","name":"Error"}
-[00:39:54.915] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
-[00:39:55.018] Browser ERROR   {"environmentName":"Server","name":"Error"}
-[00:39:58.693] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
-[00:39:58.814] Browser ERROR   {"environmentName":"Server","name":"Error"}
-[00:40:27.464] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
-[00:40:27.571] Browser ERROR   {"environmentName":"Server","name":"Error"}
-[00:41:09.048] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
-[00:41:09.571] Browser ERROR   {"environmentName":"Server","name":"Error"}
-[00:41:16.253] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
-[00:41:16.355] Browser ERROR   {"environmentName":"Server","name":"Error"}
-[00:41:21.591] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
-[00:41:21.698] Browser ERROR   {"environmentName":"Server","name":"Error"}
-[00:41:34.791] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
-[00:41:34.897] Browser ERROR   {"environmentName":"Server","name":"Error"}
-[00:41:56.236] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
-[00:41:56.340] Browser ERROR   {"environmentName":"Server","name":"Error"}
-[00:42:02.749] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
-[00:42:02.852] Browser ERROR   {"environmentName":"Server","name":"Error"}
-[00:42:13.807] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
-[00:42:13.909] Browser ERROR   {"environmentName":"Server","name":"Error"}
-[00:42:16.140] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
-[00:42:16.243] Browser ERROR   {"environmentName":"Server","name":"Error"}
-[00:42:33.143] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
-[00:42:33.248] Browser ERROR   {"environmentName":"Server","name":"Error"}
-[00:42:39.051] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
-[00:42:39.155] Browser ERROR   {"environmentName":"Server","name":"Error"}
-[00:42:46.935] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
-[00:42:47.039] Browser ERROR   {"environmentName":"Server","name":"Error"}
-[00:42:59.343] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
-[00:42:59.446] Browser ERROR   {"environmentName":"Server","name":"Error"}
-[00:43:51.426] Server  LOG     ✓ Compiled in 37ms
-[00:43:51.928] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
-[00:43:52.035] Browser ERROR   {"environmentName":"Server","name":"Error"}
-[00:45:21.588] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
-[00:45:21.697] Browser ERROR   {"environmentName":"Server","name":"Error"}
-[00:45:44.330] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
-[00:45:44.434] Browser ERROR   {"environmentName":"Server","name":"Error"}
-[00:46:54.511] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/components/BreadCrumbs.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:46:54.602] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
-[00:46:55.083] Server  ERROR   ⨯ Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
-[00:46:55.213] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
-[00:46:55.425] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:46:56.262] Browser ERROR   {"environmentName":"Server","name":"Error"}
-[00:46:56.263] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
-
-Check the render method of `CoursePageLayout`.
-[00:47:05.494] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:47:05.611] Browser WARN    Image with src "http://localhost:3000/UJ.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:47:06.424] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
-
-Check the render method of `CoursePageLayout`.
-[00:47:35.598] Browser ERROR   ./app/components/BreadCrumbs.tsx:4:52
-Parsing ecmascript source code failed
-  2 | import Link from "next/link";
-  3 |
-> 4 | export default function ({ courseName, courseId }) => {
-    |                                                    ^^
-  5 |   return (
-  6 |     <nav className="flex items-center gap-2 text-sm text-gray-500 mb-4">
-  7 |       <Link href="/courses" className="hover:text-primary transition-colors">
-
-Expected '{', got '=>'
-
-Import trace:
-  Server Component:
-    ./app/components/BreadCrumbs.tsx
-    ./app/courses/course/[courseId]/layout.tsx
-[00:47:45.017] Browser ERROR   ./app/components/BreadCrumbs.tsx:3:64
-Parsing ecmascript source code failed
-  1 | import Link from "next/link";
-  2 |
-> 3 | export default function BreadCrumbs ({ courseName, courseId }) => {
-    |                                                                ^^
-  4 |   return (
-  5 |     <nav className="flex items-center gap-2 text-sm text-gray-500 mb-4">
-  6 |       <Link href="/courses" className="hover:text-primary transition-colors">
-
-Expected '{', got '=>'
-
-Import trace:
-  Server Component:
-    ./app/components/BreadCrumbs.tsx
-    ./app/courses/course/[courseId]/layout.tsx
-[00:48:10.631] Server  LOG     ✓ Compiled in 26ms
-[00:48:11.197] Server  ERROR   ⨯ ReferenceError: courseId is not defined
-[00:48:11.304] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
-[00:48:11.580] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:48:12.354] Browser ERROR   {"environmentName":"Server","name":"Error"}
-[00:48:12.354] Browser ERROR   uncaughtError: ReferenceError: courseId is not defined
-[00:49:47.098] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:49:47.297] Server  LOG     ✓ Compiled in 18ms
-[00:49:47.638] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
-[00:49:47.887] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:49:48.717] Browser ERROR   {"environmentName":"Server","name":"Error"}
-[00:49:48.717] Browser WARN    Image with src "http://localhost:3000/UJ.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:50:03.675] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
-[00:50:04.193] Browser ERROR   {"environmentName":"Server","name":"Error"}
-[00:50:05.510] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
-[00:50:05.802] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:50:05.919] Browser ERROR   {"environmentName":"Server","name":"Error"}
-[00:50:05.920] Browser WARN    Image with src "http://localhost:3000/UJ.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:50:34.260] Server  LOG     ✓ Compiled in 26ms
-[00:50:46.192] Server  LOG     ✓ Compiled in 16ms
-[00:50:51.665] Server  LOG     ✓ Compiled in 14ms
-[00:50:55.845] Server  LOG     ✓ Compiled in 17ms
-[00:51:08.008] Server  LOG     ✓ Compiled in 16ms
-[00:51:27.147] Server  LOG     ✓ Compiled in 20ms
-[00:51:36.142] Server  LOG     ✓ Compiled in 14ms
-[00:51:37.994] Server  LOG     ✓ Compiled in 20ms
-[00:51:40.735] Server  LOG     ✓ Compiled in 16ms
-[00:51:42.112] Server  LOG     ✓ Compiled in 19ms
-[00:52:23.093] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
-[00:52:23.204] Browser ERROR   {"environmentName":"Server","name":"Error"}
-[00:52:46.064] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
-[00:52:46.193] Browser ERROR   {"environmentName":"Server","name":"Error"}
-[00:58:58.879] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
-[00:58:59.302] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:58:59.426] Browser ERROR   {"environmentName":"Server","name":"Error"}
-[00:58:59.426] Browser WARN    Image with src "http://localhost:3000/UJ.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:59:01.144] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:59:01.265] Browser WARN    Image with src "http://localhost:3000/UJ.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:02.182] Server  WARN    ⚠ Turbopack's filesystem cache has been deleted because we previously detected an internal error in Turbopack. Builds or page loads may be slower as a result.
+[00:00:02.672] Server  LOG     ✓ Ready in 1534ms
+[00:00:24.811] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:24.927] Browser WARN    Image with src "http://localhost:3000/UJ.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:35.633] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
+[00:00:36.023] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:36.145] Browser ERROR   {"environmentName":"Server","name":"Error"}
+[00:00:36.145] Browser WARN    Image with src "http://localhost:3000/UJ.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:02:46.123] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
+[00:02:46.228] Browser ERROR   {"environmentName":"Server","name":"Error"}
+[00:02:52.181] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:52.298] Browser WARN    Image with src "http://localhost:3000/UJ.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:04:21.251] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
+[00:04:21.367] Browser ERROR   {"environmentName":"Server","name":"Error"}
+[00:04:25.317] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:25.433] Browser WARN    Image with src "http://localhost:3000/UJ.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:04:30.094] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
+[00:04:30.197] Browser ERROR   {"environmentName":"Server","name":"Error"}
+[00:04:38.508] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
+[00:04:38.613] Browser ERROR   {"environmentName":"Server","name":"Error"}
+[00:04:41.424] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
+[00:04:41.527] Browser ERROR   {"environmentName":"Server","name":"Error"}
+[00:04:44.931] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
+[00:04:45.039] Browser ERROR   {"environmentName":"Server","name":"Error"}
+[00:04:46.668] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
+[00:04:46.770] Browser ERROR   {"environmentName":"Server","name":"Error"}
+[00:04:57.786] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
+[00:04:57.889] Browser ERROR   {"environmentName":"Server","name":"Error"}
+[00:05:11.538] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
+[00:05:11.643] Browser ERROR   {"environmentName":"Server","name":"Error"}
+[00:06:01.498] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
+[00:06:01.605] Browser ERROR   {"environmentName":"Server","name":"Error"}
+[00:06:05.893] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:06.002] Browser WARN    Image with src "http://localhost:3000/UJ.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:06:07.340] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
+[00:06:07.683] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:07.801] Browser ERROR   {"environmentName":"Server","name":"Error"}
+[00:06:07.801] Browser WARN    Image with src "http://localhost:3000/UJ.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:06:11.633] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
+[00:06:11.737] Browser ERROR   {"environmentName":"Server","name":"Error"}
+[00:06:13.070] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
+[00:06:13.400] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:13.519] Browser ERROR   {"environmentName":"Server","name":"Error"}
+[00:06:13.519] Browser WARN    Image with src "http://localhost:3000/UJ.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:07:54.129] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
+[00:07:54.444] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:54.559] Browser ERROR   {"environmentName":"Server","name":"Error"}
+[00:07:54.559] Browser WARN    Image with src "http://localhost:3000/UJ.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:09:16.078] Server  LOG     ✓ Compiled in 118ms
+[00:09:16.703] Server  ERROR   Error: Route "/courses/course/[courseId]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
+[00:09:17.062] Browser ERROR   {"environmentName":"Server","name":"Error"}
+[00:09:19.355] Server  LOG     ✓ Compiled in 25ms
+[00:09:52.491] Server  LOG     ✓ Compiled in 95ms
+[00:09:55.397] Server  LOG     ✓ Compiled in 27ms
+[00:10:12.164] Server  LOG     ✓ Compiled in 17ms
+[00:10:22.066] Server  LOG     ✓ Compiled in 18ms
+[00:10:24.448] Server  ERROR   Error: Route "/courses/course/[courseId]": Uncached data or `connection()` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
+[00:10:24.815] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:10:24.934] Browser ERROR   {"environmentName":"Server","name":"Error"}
+[00:10:24.934] Browser WARN    Image with src "http://localhost:3000/UJ.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:11:13.120] Server  ERROR   Error: Route "/courses/course/[courseId]/[category]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
+[00:11:13.259] Browser ERROR   {"environmentName":"Server","name":"Error"}
+[00:11:13.324] Server  ERROR   Error: Route "/courses/course/[courseId]/[category]": Runtime data such as `cookies()`, `headers()`, `params`, or `searchParams` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
+[00:11:13.436] Browser ERROR   {"environmentName":"Server","name":"Error"}
+[00:11:20.944] Server  LOG     ✓ Compiled in 20ms
+[00:11:57.838] Server  LOG     ✓ Compiled in 19ms
+[00:13:33.238] Server  LOG     ✓ Compiled in 59ms
+[00:13:33.674] Server  ERROR   Error: Route "/courses/course/[courseId]/[category]": Uncached data or `connection()` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
+[00:13:34.053] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:13:34.172] Browser ERROR   {"environmentName":"Server","name":"Error"}
+[00:13:34.172] Browser WARN    Image with src "http://localhost:3000/UJ.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:13:37.127] Server  LOG     ✓ Compiled in 31ms
+[00:14:56.135] Server  LOG     ✓ Compiled in 68ms
+[00:15:08.741] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:08.857] Browser WARN    Image with src "http://localhost:3000/UJ.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:15:10.141] Server  ERROR   Error: Route "/courses/course/[courseId]": Uncached data or `connection()` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
+[00:15:10.161] Server  ERROR   Error: Route "/courses/course/[courseId]": Uncached data or `connection()` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
+[00:15:10.565] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:10.676] Browser ERROR   {"environmentName":"Server","name":"Error"}
+[00:15:10.676] Browser ERROR   {"environmentName":"Server","name":"Error"}
+[00:15:10.676] Browser WARN    Image with src "http://localhost:3000/UJ.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:15:19.296] Server  LOG     ✓ Compiled in 29ms
+[00:15:38.723] Server  LOG     ✓ Compiled in 45ms
+[00:16:10.111] Server  LOG     ✓ Compiled in 20ms
+[00:16:10.239] Browser ERROR   uncaughtError: ReferenceError: majorId is not defined
+[00:16:16.099] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:16:16.217] Browser WARN    Image with src "http://localhost:3000/UJ.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:16:29.833] Browser ERROR   uncaughtError: ReferenceError: majorId is not defined
+[00:16:34.853] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:16:35.088] Server  LOG     ✓ Compiled in 20ms
+[00:16:35.775] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:16:35.901] Browser WARN    Image with src "http://localhost:3000/UJ.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:17:46.753] Server  LOG     ✓ Compiled in 19ms
+[00:18:03.818] Server  LOG     ✓ Compiled in 18ms
+[00:18:07.429] Server  ERROR   Error: Route "/courses/course/[courseId]": Uncached data or `connection()` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
+[00:18:07.449] Server  ERROR   Error: Route "/courses/course/[courseId]": Uncached data or `connection()` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
+[00:18:07.940] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:18:08.069] Browser ERROR   {"environmentName":"Server","name":"Error"}
+[00:18:08.069] Browser ERROR   {"environmentName":"Server","name":"Error"}
+[00:18:08.069] Browser WARN    Image with src "http://localhost:3000/UJ.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:18:10.524] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:18:10.641] Browser WARN    Image with src "http://localhost:3000/UJ.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:18:19.324] Server  LOG     ✓ Compiled in 21ms
+[00:18:32.076] Server  LOG     ✓ Compiled in 29ms
+[00:18:46.475] Server  LOG     ✓ Compiled in 26ms
+[00:18:51.886] Server  ERROR   Error: Route "/courses/course/[courseId]/[category]": Uncached data or `connection()` was accessed outside of `<Suspense>`. This delays the entire page from rendering, resulting in a slow user experience. Learn more: https://nextjs.org/docs/messages/blocking-route
+[00:18:52.185] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:18:52.295] Browser ERROR   {"environmentName":"Server","name":"Error"}
+[00:18:52.295] Browser WARN    Image with src "http://localhost:3000/UJ.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:19:06.334] Server  LOG     ✓ Compiled in 46ms
+[00:19:12.053] Server  LOG     ✓ Compiled in 33ms
+[00:19:19.716] Server  LOG     ✓ Compiled in 21ms
